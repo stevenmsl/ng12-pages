@@ -1,0 +1,28 @@
+- ngFor aliasing
+  - access the index while looping through
+    an array #TA01
+
+- use ng-container to handle the case that 
+  you need to apply more than one structural
+  directives on the same element #TA02
+  - don't use div for example as this might
+    result in some styling issues
+
+- ngSwitch #TA03
+
+- Custom Attribute Directive 
+  - how to pass down property values from the element
+    to the directive #TA04
+    - define a setter and decorate it with @Input
+    - perform the required logic such as setting
+      up styles in the setter #TA05
+
+- Custom Structural Directive
+  - how to pass down property values from the element
+    - #TA06
+  - how to provide additional info for aliasing
+    - #TA07
+  - how to reference the element that applies
+    the directive #TA08 
+
+       
